@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int first, second;
+
+    cout << "Enter two integers: ";
+    cin >> first >> second;
+
+    cout << "first = " << first << ", second = " << second;
+
+    return 0;
+}
