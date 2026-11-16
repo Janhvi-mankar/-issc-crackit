@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    if (n < 100) {
+        cout << "small";
+    }
+    else if (n <= 200) {
+        cout << "large";
+    }
+    else if (n <= 300) {
+        cout << "bigger";
+    }
+    else if (n <= 400) {
+        cout << "largest";
+    }
+    else {
+        cout << "very large";
+    }
+
+    return 0;
+}
