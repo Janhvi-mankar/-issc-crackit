@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     float principal, rate, years;
     float interest, amount;
 
@@ -24,7 +25,8 @@ int main() {
 
     cout << "\nAmount at the end of each year:\n";
 
-    for (int i = 1; i <= years; i++) {
+    for (int i = 1; i <= years; i++)
+    {
         float yearlyInterest = (principal * rate * i) / 100;
         float yearlyAmount = principal + yearlyInterest;
 
